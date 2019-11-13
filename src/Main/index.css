@@ -1,0 +1,43 @@
+/* Barra de pesquisa de filmes */
+.search {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    color: white;
+    display: inline-block;
+}
+.search img{
+    max-width: 100%;
+    background-size: cover;
+    mask-image: -webkit-gradient(linear, left top, left bottom, 
+    from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+  
+.top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+}
+
+.iptMovie{
+    width: 60vw;
+}
+.btnSearch {
+    background-color: #fff;
+    border: none;
+}
+@media only screen and (max-width: 575px) {
+    .search h4{
+        display: none;
+    }
+    .iptMovie{
+        width: 90vw;
+    }
+}
