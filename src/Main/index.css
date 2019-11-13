@@ -41,3 +41,19 @@
         width: 90vw;
     }
 }
+.genres div img{
+    transition: transform .2s;
+    height: 50vh;
+    margin-bottom: 2vh;
+    margin-top: 1vh;
+}
+.genres div img:hover{
+    cursor: pointer;
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+.genres div h6{
+    text-align: center;
+    margin-right: 5vw;
+}

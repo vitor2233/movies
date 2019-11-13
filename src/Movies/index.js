@@ -13,7 +13,7 @@ class Movies extends React.Component {
   }
 
   async fetchMovies() {
-    const url = 'https://api.themoviedb.org/3/movie/popular?api_key=1752c8ea8ce111cf37e45818b0779d5f&language=pt-BR&page=1&whithout_genres=animation';
+    const url = 'https://api.themoviedb.org/3/movie/popular?api_key=1752c8ea8ce111cf37e45818b0779d5f&language=pt-BR&page=1&whithout_genres=animation&with_genres=37';
     const response = await fetch(url);
     const data = await response.json();
     /* Tirar os filmes japoneses */
