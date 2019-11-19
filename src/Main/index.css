@@ -8,8 +8,10 @@
     display: inline-block;
 }
 .search img{
+    width: 100vw;
     max-width: 100%;
     background-size: cover;
+    /* Gradient no bottom da imagem */
     mask-image: -webkit-gradient(linear, left top, left bottom, 
     from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
 }
@@ -18,6 +20,9 @@
     position: absolute;
     top: 8px;
     left: 16px;
+}
+.top-left h4 a{
+    color: #DDD;
 }
   
 .top-right {

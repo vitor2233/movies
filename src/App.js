@@ -3,6 +3,7 @@ import './App.css';
 import Main from './Main';
 import Movies from './Movies';
 import Detailed from './Detailed';
+import Search from './Search';
 
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
@@ -11,8 +12,9 @@ function App(){
       <div className="App">
         <Router>
           <Route exact path="/" component={Main} />
-          <Route exact path="/movies/:genre" component={Movies} />
-          <Route exact path="/movie/:id" component={Detailed} />
+          <Route path="/movies/:genre" component={Movies} />
+          <Route path="/movie/:id" component={Detailed} />
+          <Route path="/search/:query" component={Search} />
         </Router>
       </div>
     );
