@@ -38,7 +38,7 @@ class Main extends React.Component {
         <div className="search">
           <img src={'https://image.tmdb.org/t/p/w1280/' + this.state.bgImage} alt="" />
           <div className="top-left">
-            <h4>VitaoFilmesHD</h4>
+            <h4> VitaoFilmesHD</h4>
           </div>
           <div className="top-right">
             <InputGroup className="iptMovie">
