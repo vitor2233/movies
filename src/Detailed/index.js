@@ -1,8 +1,6 @@
 import React from 'react';
 import './index.css';
 
-import ProgressButton from 'react-progress-button';
-
 class Detailed extends React.Component {
   state = {
     bgImage: '',
@@ -35,11 +33,7 @@ class Detailed extends React.Component {
             <h2>{this.state.movie.title}</h2>
             <h4>{this.state.movie.tagline}</h4>
             <p>{this.state.movie.overview}</p>
-            <ProgressButton>
-              Assistir
-            </ProgressButton>
           </div>
-
         </div>
       </div>
     );
