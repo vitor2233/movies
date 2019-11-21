@@ -14,6 +14,7 @@ App about movies, just frontend, API from tmdb.
 
 ```shell
 $ npm install
+$ npm start
 ```
 
 ## Support
