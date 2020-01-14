@@ -22,5 +22,6 @@ $ npm start
 You can find me on the following places!
 
 - Instagram <a href="https://www.instagram.com/vitor7.js/" target="_blank">`@vitorgui7.js`</a>
+- LinkedIn <a href="https://www.linkedin.com/in/vitor-guilherme2233/" target="_blank">`Vitor Guilherme`</a>
 
 ---
